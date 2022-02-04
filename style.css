@@ -1,0 +1,84 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-size: 0%;
+}
+
+#background-part-one {
+  background-image: url("img/web\ design.jpg");
+  height: 620px;
+
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+}
+header.head ul.link-header {
+  width: 444px;
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  background-color: rgb(10, 56, 99);
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+header.head ul.link-header li {
+  font-size: 17px;
+  width: 25%;
+  padding: 20px;
+  text-align: center;
+}
+header.head ul.link-header li a {
+  text-decoration: none;
+  color: wheat;
+}
+.definition-and-image {
+  display: flex;
+  flex-direction: row;
+  height: 60%;
+}
+.definition {
+  width: 40%;
+  margin-top: 5.5%;
+  margin-left: 7.5%;
+  line-height: 27px;
+  font-size: 19px;
+}
+.definition h1 {
+  font-size: 30px;
+  font-weight: bold;
+}
+.definition-and-image .personalImage {
+  width: 30%;
+  margin-left: 6%;
+  margin-top: 5%;
+}
+/*hhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh*/
+.section-About-Me {
+  background-color: rgba(208, 196, 175, 0.446);
+  height: 400px;
+  padding-top: 120px;
+  display: flex;
+  flex-direction: row;
+}
+.section-About-Me .about-me-image {
+  width: 28%;
+  height: 280px;
+  margin-left: 9.5%;
+}
+.section-About-Me div.about-me-text {
+  margin-left: 2%;
+  width: 60%;
+  height: 250px;
+}
+.section-About-Me span {
+  font-size: 28px;
+  font-weight: bold;
+  padding-left: 40%;
+}
+.section-About-Me p {
+  font-size: 22px;
+  padding-left: 13%;
+}
+/*hhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh*/
