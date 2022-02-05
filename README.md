@@ -1,7 +1,7 @@
 
 # Mostafa-balousha-portfolio-
 
-## you can check it [here](https://pages.github.com/).
+## you can check it [here](file:///C:/Users/hp%20250%20G7%20G10/Desktop/Mostafa%20Sky%20Geeks/SKY/pro/Mostafa-balousha-portfolio/strcture.html#).
 
 Team Members :
 Mostafa Balousha
