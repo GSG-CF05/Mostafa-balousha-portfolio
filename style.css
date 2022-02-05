@@ -7,7 +7,7 @@ body {
 
 #background-part-one {
   background-image: url("img/web\ design.jpg");
-  height: 620px;
+  height:720px;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -64,7 +64,7 @@ header.head ul.link-header li a.home {
   font-family: 'Lora', serif;
 }
 .definition-and-image .personalImage {
-  width: 33%;
+  width: 39%;
   height: 85%;
   margin-left: 6%;
   margin-top: 5%;
@@ -88,6 +88,7 @@ header.head ul.link-header li a.home {
   margin-left: 2%;
   width: 60%;
   height: 250px;
+ 
   
 }
 .section-About-Me span {
@@ -96,12 +97,12 @@ header.head ul.link-header li a.home {
   padding-left: 40%;
   font-family: 'Lora', serif;
 }
-.section-About-Me p {
+#about-me {
   font-size: 20px;
   padding-left: 11%;
   font-weight: bold;
   font-family: 'Open Sans', sans-serif ;
-  line-height: 22px;
+  line-height: 35px;
   
 }
 /*hhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh*/
@@ -123,7 +124,6 @@ height: 500px;
 width: 900px;
 margin-left: 17%;
 
-
 }
 
 section.services div {
@@ -132,9 +132,12 @@ section.services div {
   margin-top: 10%;
   height:300px ;
   border-radius: 10px;
-  background-color:#FEF2F2;
-box-shadow:2px 3px rgba(0, 0, 0, 0.268);
-
+  background-color:#ffffff;
+  transition: transform .5s, box-shadow 1s;
+}
+section.services div:hover {
+  transform: scale(1.02) perspective(0px);
+  box-shadow: 0 10px 10px rgb(10, 56, 99);
 }
 section.services div  figure{
   margin-left: 27%;
@@ -160,3 +163,47 @@ section.services div p{
   font-weight: bold;
  font-family: 'Open Sans', sans-serif;
 }
+/********************************************/
+
+footer{
+height: 270px;
+background-color: rgb(10, 56, 99) ;
+}
+
+div.divContinarFig
+{
+  margin-top: 45px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+footer figure{
+  width: 65px;
+  height: 65px;
+  border-radius: 240px;
+  background-color: #fdfdfd;
+  border-radius: 270px;
+  margin-top: 45px;
+  font-size: 50px;
+  
+}
+footer figure img{
+  padding-top: 15px;
+padding-left: 14px;
+}
+
+div.link-footer{padding-top: 20px;
+ padding-left: 40%;
+}
+div.link-footer a{
+  text-decoration: none ;
+  color: white;
+margin: 1.5%;
+  font-size: 20px;
+}
+div.link-footer a:hover {
+  color: #F3C623;
+  text-decoration: underline ;
+  }
