@@ -2,19 +2,19 @@ body {
   margin: 0;
   padding: 0;
   font-size: 0%;
+  background-color: #e9ecf8;
 }
 
 #background-part-one {
   background-image: url("img/web\ design.jpg");
   height: 620px;
-
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   color: white;
 }
 header.head ul.link-header {
-  width: 444px;
+  width: 500px;
   list-style: none;
   display: flex;
   flex-direction: row;
@@ -23,8 +23,9 @@ header.head ul.link-header {
   margin-left: auto;
   margin-right: auto;
 }
+
 header.head ul.link-header li {
-  font-size: 17px;
+  font-size: 20px;
   width: 25%;
   padding: 20px;
   text-align: center;
@@ -32,7 +33,14 @@ header.head ul.link-header li {
 header.head ul.link-header li a {
   text-decoration: none;
   color: wheat;
+
 }
+header.head ul.link-header li a:hover {
+color: #F3C623;
+}
+header.head ul.link-header li a.home {
+  color: #F3C623;
+  }
 .definition-and-image {
   display: flex;
   flex-direction: row;
@@ -44,41 +52,111 @@ header.head ul.link-header li a {
   margin-left: 7.5%;
   line-height: 27px;
   font-size: 19px;
+  font-family: 'Open Sans', sans-serif
+}
+.definition span {
+  color: #F3C623;
 }
 .definition h1 {
-  font-size: 30px;
+  font-size: 35px;
   font-weight: bold;
+  line-height: 40px;
+  font-family: 'Lora', serif;
 }
 .definition-and-image .personalImage {
-  width: 30%;
+  width: 33%;
+  height: 85%;
   margin-left: 6%;
   margin-top: 5%;
 }
 /*hhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh*/
 .section-About-Me {
-  background-color: rgba(208, 196, 175, 0.446);
+  background-color:#D8E3E7;
   height: 400px;
   padding-top: 120px;
   display: flex;
   flex-direction: row;
+  
 }
 .section-About-Me .about-me-image {
   width: 28%;
   height: 280px;
   margin-left: 9.5%;
+  opacity: 0.9;
 }
 .section-About-Me div.about-me-text {
   margin-left: 2%;
   width: 60%;
   height: 250px;
+  
 }
 .section-About-Me span {
   font-size: 28px;
   font-weight: bold;
   padding-left: 40%;
+  font-family: 'Lora', serif;
 }
 .section-About-Me p {
-  font-size: 22px;
-  padding-left: 13%;
+  font-size: 20px;
+  padding-left: 11%;
+  font-weight: bold;
+  font-family: 'Open Sans', sans-serif ;
+  line-height: 22px;
+  
 }
 /*hhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh*/
+
+
+#h2Services{
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 5%;
+  font-family: 'Lora', serif;
+}
+
+
+section.services{
+display: flex;
+flex-direction: row;
+height: 500px;
+width: 900px;
+margin-left: 17%;
+
+
+}
+
+section.services div {
+  width: 27%;
+  margin:auto ;
+  margin-top: 10%;
+  height:300px ;
+  border-radius: 10px;
+  background-color:#FEF2F2;
+box-shadow:2px 3px rgba(0, 0, 0, 0.268);
+
+}
+section.services div  figure{
+  margin-left: 27%;
+  margin-top: 19px;
+  width: 95px;
+  height: 95px;
+  border-radius: 360px;
+  background-color:#F3C623 ;
+}
+ section.services div  figure img{
+  margin-left: 23%;
+  margin-top: 19px;
+  align-content: center;
+} 
+section.services div h1{
+  font-size: 23px;
+  text-align: center;
+  font-family: 'Lora', serif;
+}
+section.services div p{
+  font-size: 18px;
+  text-align: center;
+  font-weight: bold;
+ font-family: 'Open Sans', sans-serif;
+}
