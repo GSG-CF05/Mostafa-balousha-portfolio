@@ -1,14 +1,17 @@
 
 # Mostafa-balousha-portfolio-
+## You can check it out [HERE](https://gsg-cf05.github.io/Mostafa-balousha-portfolio/)
 
-## you can check it [here](https://gsg-cf05.github.io/Mostafa-balousha-portfolio/).
-
-Team Members :
-Mostafa Balousha
-
-Why we created this page ? 
-Because it is our first project in  Programming basics course
-
-what is the project ? 
+## Team Members:-
+- [Mostafa Balousha](https://github.com/MostafaBalousha123)
+## Why we created this app?
+Because it is our first project in  Programming basics course.
+## What is project?
 The project is a personal website design by HTML and CSS that displays 
-information about you and your skills
+information about you and your skills.
+
+## How we've created it?
+ phases:-
+- Git & Github
+- HMTL5 & CSS3
+
